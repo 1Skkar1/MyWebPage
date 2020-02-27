@@ -62,7 +62,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    top: 20%;
+    top: 25%;
     height: 225px;
     width: 225px;
     border-radius: 50%;
@@ -76,7 +76,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    top: 44%;
+    top: 48%;
 }
 
 .email-icon-button {
@@ -98,7 +98,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    bottom: 10%;
+   top: 85%;
 }
 
 .email-icon-button span {
@@ -249,7 +249,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    bottom: 12%;
+    top: 65%;
 }
  
 .title {
@@ -511,12 +511,13 @@ h1 {
 /* ------- A B O U T ------- */
 
 .abouttitle {
-	bottom: 250px;
+	position: absolute;
+	top: -15%;
 	position: fixed;
 	left: 50%;
     transform: translate(-50%, -50%);
 	margin: 0 auto;
-	width: 44%;
+	width: 170px;
 	text-align: center;
 }
 
@@ -546,12 +547,13 @@ h1 {
 /* ------- P R O J E C T S ------- */
 
 .projectstitle {
+	position: absolute;
 	top: -15%;
 	position: fixed;
 	left: 50%;
     transform: translate(-50%, -50%);
 	margin: 0 auto;
-	width: 13%;
+	width: 180px;
 	text-align: center;
 }
 
