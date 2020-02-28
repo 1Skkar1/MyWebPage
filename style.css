@@ -63,8 +63,8 @@ li a:hover {
     transform: translate(-50%, -50%);
     margin: 0 auto;
     top: 25%;
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     border: 2px solid black;
 }
