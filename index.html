@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/6dafdd73b1.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto|Luckiest+Guy|Bangers|VT323|Quicksand&display=swap" rel="stylesheet">
 		
 		<link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -28,7 +29,12 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 	</head>
-	
+    <!---
+    <div id="buttonDM" class="buttonDM">
+            <button id="darkDM" class="borderless-button"><ion-icon name="moon-outline" class="darkDM"></ion-icon></button>
+            <button id="lightDM" class="borderless-button"><ion-icon name="sunny-outline" class="lightDM"></ion-icon></button>
+    </div>
+    -->
 	<body>
         <div>
             <img id="profilepic" class="profilepic noselect" src="images/me.jpeg">
@@ -68,10 +74,10 @@
             <div class="slider"><div class="indicator"></div></div>
         </div>
 
+        <div id="abouttitle" class="abouttitle typewriter">
+            <h1>about me</h1>
+        </div>
         <div id="about" class="about">
-            <div class="abouttitle typewriter">
-                <h1>about me</h1>
-            </div>
             <span>
                 I am 22 years old and currently living in Portugal where I was born and raised.
                 <br><br>
@@ -87,10 +93,11 @@
             <iframe src="CV.pdf" width="100%" height="100%"></iframe>
         </div>
        
+        <div id="projectstitle" class="projectstitle typewriter">
+            <h1>projects</h1>
+        </div>
+
         <div id="projects" class="projects">
-            <div class="projectstitle typewriter">
-                <h1>projects</h1>
-            </div>
             <ul>
                 <li>
                     <a href="https://github.com/1Skkar1/AST-Language-Interpreter" target="_blank">AST Language Interpreter</a>

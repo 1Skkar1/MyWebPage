@@ -17,12 +17,15 @@ function showHome() {
     //hide
     document.getElementById("cv").style.display = "none";
     document.getElementById("about").style.display = "none";
+    document.getElementById("abouttitle").style.display = "none";
+    document.getElementById("projectstitle").style.display = "none";
     document.getElementById("projects").style.display = "none";
 }
 
 function showAbout() {
     //show
     document.getElementById("about").style.display = "block";
+    document.getElementById("abouttitle").style.display = "block";
 
     //hide
     document.getElementById("profilepic").style.display = "none";
@@ -31,6 +34,7 @@ function showAbout() {
     document.getElementById("mailicon").style.display = "none";
     document.getElementById("cv").style.display = "none";
     document.getElementById("projects").style.display = "none";
+    document.getElementById("projectstitle").style.display = "none";
 }
 
 function showResume() {
@@ -43,12 +47,15 @@ function showResume() {
     document.getElementById("icons").style.display = "none";
     document.getElementById("mailicon").style.display = "none";
     document.getElementById("about").style.display = "none";
+    document.getElementById("abouttitle").style.display = "none";
     document.getElementById("projects").style.display = "none";
+    document.getElementById("projectstitle").style.display = "none";
 }
 
 function showProjects() {
     //show
     document.getElementById("projects").style.display = "block";
+    document.getElementById("projectstitle").style.display = "block";
 
     //hide
     document.getElementById("profilepic").style.display = "none";
@@ -57,4 +64,5 @@ function showProjects() {
     document.getElementById("mailicon").style.display = "none";
     document.getElementById("cv").style.display = "none";
     document.getElementById("about").style.display = "none";
+    document.getElementById("abouttitle").style.display = "none";
 }

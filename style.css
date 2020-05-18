@@ -11,11 +11,25 @@ a {
 	text-decoration: none;
 }
 
+ion-icon {
+	font-size: 25px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
 li a:hover {
 	font-weight: bold;
 	color: #b30000;
 	font-size: 105%;
 	text-decoration: underline;
+}
+
+.borderless-button {
+	border: none;
+	padding: 0;
+	background: none;
 }
 
 .noselect {
@@ -512,13 +526,14 @@ h1 {
 
 .abouttitle {
 	position: absolute;
-	top: -15%;
+	top: 15%;
 	position: fixed;
 	left: 50%;
     transform: translate(-50%, -50%);
 	margin: 0 auto;
-	width: 170px;
+	width: 150px;
 	text-align: center;
+	display: none;
 }
 
 .about {
@@ -528,7 +543,7 @@ h1 {
 	left: 50%;
     transform: translate(-50%, -50%);
 	margin: 0 auto;
-	top: 50%;
+	top: 45%;
 	text-align: justify;
 	line-height: 22px;
 	display: none;
@@ -552,24 +567,25 @@ h1 {
 /* ------- P R O J E C T S ------- */
 
 .projectstitle {
-	position: absolute;
-	top: -15%;
+	position: fixed;
+	top: 15%;
 	position: fixed;
 	left: 50%;
     transform: translate(-50%, -50%);
 	margin: 0 auto;
-	width: 180px;
+	width: 150px;
 	text-align: center;
+	display: none;
 }
 
 .projects {
-	width: 100%;
+	width: 80%;
 	position: fixed;
-	left: 50%;
+	left: 60%;
     transform: translate(-50%, -50%);
 	margin: 0 auto;
-	top: 40%;
-	text-align: center;
+	top: 45%;
+	text-align: left;
 	line-height: 35px;
 	display: none;
 	font-size: 16px;
