@@ -77,8 +77,8 @@ li a:hover {
     transform: translate(-50%, -50%);
     margin: 0 auto;
     top: 25%;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: auto;
     border-radius: 50%;
     border: 2px solid black;
 }
