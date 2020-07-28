@@ -42,6 +42,22 @@ li a:hover {
 									supported by Chrome, Opera and Firefox */
 }
 
+/* ------- D A R K  M O D E  I C O N S ---------*/
+
+.buttonDark {
+	position: fixed;
+	display: block;
+	top: 2%;
+	right: 1%;
+}
+
+.buttonLight {
+	position: fixed;
+	display: none;
+	top: 2%;
+	right: 1%;
+}
+
 /* ------- T Y P E W R I T E R ------ */
 
 .typewriter h1 {
@@ -80,7 +96,7 @@ li a:hover {
     height: 250px;
     width: auto;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid #2b2b2b;
 }
 
 /* ------- S O C I A L  I C O N S ------ */
@@ -143,7 +159,7 @@ li a:hover {
 	display: inline-block;
 	font-size: 2.0rem;
 	height: 3.6rem;
-	line-height: 3.6rem;
+	line-height: 3.4rem;
 	margin: 0 5px;
     text-align: center;
     position: relative;
@@ -175,10 +191,10 @@ li a:hover {
 	margin: -1.8rem;
 }
 .email span {
-    background-color: black;
+    background-color: #2b2b2b;
 }
 .github span {
-	background-color: black;
+	background-color: #2b2b2b;
 }
 .linkedin span {
 	background-color: #0077B7;
@@ -265,11 +281,12 @@ li a:hover {
     margin: 0 auto;
     top: 67%;
 }
- 
+
 .title {
     height: 100%;
 	font-weight: 800;
 	color: transparent;
+	-webkit-text-stroke: 0.5px white;
 	font-size: 70px;
 	background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
 	background-position: 40% 50%;
@@ -584,7 +601,7 @@ h1 {
 	left: 60%;
     transform: translate(-50%, -50%);
 	margin: 0 auto;
-	top: 45%;
+	top: 55%;
 	text-align: left;
 	line-height: 35px;
 	display: none;
